@@ -4,6 +4,11 @@ def unique_list(list1):
     if i not in list2:
       list2.append(i)
   return list2
+'''
+The above defined function is the basic algorithm.
+The code below is extra, just to present a complete executable code.
+The code below is just to input data and output the result utilising the function defined above.
+'''
 lst=[]
 size=int(input("Enter the size of the list: "))
 print("Enter the elements of the list:--")
