@@ -3,6 +3,11 @@ def sum_list_elements(list1):
   for i in list1:
     total += i
   return total
+'''
+The above defined function is the basic algorithm.
+The code below is extra, just to present a complete executable code.
+The code below is just to input data and output the result utilising the function defined above.
+'''
 lst=[]
 size=int(input("Enter the size of list: "))
 print("Enter the elements of the list:--")
